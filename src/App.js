@@ -8,8 +8,9 @@ function App() {
     <div id="main">
       <BrowserRouter>
         <Sidebar>
-          <Routing/>     
+         <Routing/>
         </Sidebar>
+               
       </BrowserRouter>
     </div>
   );

@@ -1,0 +1,78 @@
+.card-main{
+	
+	background-color: #F6F7FA;
+	border: none;
+	padding: 10px;
+
+}
+.colstyle{
+	padding: 10px !important;
+}
+.cardheader{
+	background-color: #F6F7FA;
+	border: none;
+	font-family: "Poppins";
+  font-weight: 1000;
+  font-size: 23px;
+}
+.cardsub{
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	opacity: 0.8;
+	
+}
+
+.cardsubtitle{
+	margin-bottom: 0 !important;
+	font-weight: 100;
+  font-size: 14px;
+	
+}
+.cardnumber{
+	color: #D62DF2;
+	font-weight: 600;
+	font-size: 32px;
+}
+.rowstyle{
+	column-gap: 30px;
+	
+	margin-top: 32px;
+	.cardnumber{
+		color: #2ED297;
+		font-weight: 600;
+		font-size: 23px;
+		margin: 0 !important;
+
+	}
+	.cardsubtitle{
+		margin-bottom: 0 !important;
+		font-weight: 800;
+		font-size: 22px;
+		font-family: 'Poppins';
+		
+	}
+	.colstyle{
+		padding: 0 !important;
+		margin-top: 10px;
+		
+	}
+	.subrowstyle{
+		align-items: center;
+		margin-left: 10px;
+		margin-top: 6px;
+	}
+}
+#row_second {
+	.cardsubtitle{
+		margin-bottom: 0 !important;
+		font-weight: 100;
+		font-size: 14px;
+		opacity: 0.8;
+	}
+	.cardsubtitle_{
+		margin-bottom: 0 !important;
+		font-weight: 500;
+		font-size: 14px;
+	}
+}

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const ListItem = ({ to, children }) => {
   return (
     <li>
-      <Link to={to}>{children}</Link>
+      <Link className='linkstyle' to={to}>{children}</Link>
     </li>
   );
 };

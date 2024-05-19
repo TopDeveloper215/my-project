@@ -36,6 +36,7 @@ export const SidebarLogo = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none !important;
 
   @media (max-width: 468px) {
     display: none;
@@ -57,7 +58,8 @@ export const SidebarToggler = styled.button`
 
 // SidebarItem styles
 export const ItemsList = styled.ul`
-  list-style: none;
+  list-style: none !important;
+  text-decoration:none !important;
   padding : 0.5rem;
 `;
 
@@ -107,15 +109,17 @@ export const ItemName = styled.span`
 
 // Sidebar Container
 export const SidebarContainer = styled.div`
-  position: absolute;
+  position: fixed;
   left: 0;
   width: ${({ displaySidebar }) => (displaySidebar ? "15rem" : "5rem")};
-  height: 100vh;
+  // height: 100vh;
+  height: 100%;
   padding: 0.75rem;
   background: #f3f4f4;
   transition: width 350ms ease;
   border-right: 1px solid #d4d8dd;
   overflow-x: hidden;
+
   ${({ displaySidebar }) =>
     displaySidebar && "box-shadow: 8px 0px 12px 0px rgba(0,0,0,0.1)"};
 
